@@ -2,9 +2,6 @@ from ultralytics import YOLO
 import cv2
 import supervision as sv
 import time
-import socket
-import struct
-import numpy as np
 
 from line_counter_tomatoes import LineZone, LineZoneAnnotator
 from box_annotator import BoxAnnotator
@@ -150,8 +147,6 @@ class TomatoesTracking():
                 if cv2.waitKey(10) & 0xFF == ord('q'):
                     break
                 print(e)
-            finally:
-                pass
         self.video_capture.release()
         self.video_record.release()
         cv2.destroyAllWindows()
