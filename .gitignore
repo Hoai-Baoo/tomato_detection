@@ -1,3 +1,4 @@
-./tomatoes_video
+/tomatoes_video
+/__pycache__
 logo.jpg
 test_video1_predicted.avi
