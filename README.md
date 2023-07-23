@@ -10,12 +10,16 @@ https://github.com/Hoai-Baoo/Tomato_Detection/assets/93426264/2b34d14d-4e04-4c89
 
 ## Requirements
 
+ -python>=3.8
+ 
  -ultralytics
  
  -cv2
  
  -supervision
- 
+
+## Run
+Run predict_tomato_jetson.py
 
 
 
