@@ -1,4 +1,4 @@
-# Tomato_Detection
+# tomato_detection
 ## Introduction
 
 A mini-project using YOLOv8 to detect tomato classification by ripening.
